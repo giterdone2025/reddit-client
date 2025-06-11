@@ -27,22 +27,22 @@ and Enzyme. The app is used for fewer and simpler tasks like viewing, searching,
 
 #### Desktop
 
-<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_16.jpg" style="transform: rotate(90deg);" width="300px">
+<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_16.jpg" style="transform: rotate(90deg); border: 5px solid black;" width="300px">
 
 #### Mobile
 
-<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_17.jpg" height="300px">
+<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_17.jpg" height="300px" style="border: 5px solid black;">
 
 ### Viewing Comments
 
 #### Desktop
 
-<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_19.jpg" height="300px">
+<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_19.jpg" height="300px" style="border: 5px solid black;">
 
 #### Mobile
 
-<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_18.jpg" height="300px">
+<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_18.jpg" height="300px" style="border: 5px solid black;">
 
 ### Expanding Post on Desktop
 
-<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_20.jpg" height="300px">
+<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_20.jpg" height="300px" style="border: 5px solid black;">
