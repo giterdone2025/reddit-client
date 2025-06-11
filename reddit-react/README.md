@@ -27,7 +27,7 @@ and Enzyme. The app is used for fewer and simpler tasks like viewing, searching,
 
 #### Desktop
 
-<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_16.jpg" style="margin-left: 50px;" width="300px">
+<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_16.jpg" style="transform: rotate(90deg);" width="300px">
 
 #### Mobile
 
