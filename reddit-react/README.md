@@ -27,9 +27,9 @@ and Enzyme. The app is used for fewer and simpler tasks like viewing, searching,
 
 #### Desktop
 
-(You may have to download this image and turn it sideways to view it better.)
 
-<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_16.jpg" width="300px">
+
+<img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_16.jpg" width="500px">
 
 #### Mobile
 
@@ -48,3 +48,8 @@ and Enzyme. The app is used for fewer and simpler tasks like viewing, searching,
 ### Expanding Post on Desktop
 
 <img title="Home Page Wireframe" alt="Home Page Wireframe" src="./IMG_20.jpg" height="300px">
+
+## Technologies Used
+
+For the development of the app, I used HTML/CSS/JavaScript, with React and Redux. Then, for testing 
+the app, I use Jest and Enzyme. Finally, for deployment, I use Netlify to host the app.
