@@ -1,0 +1,15 @@
+input {
+    width: 200px;
+}
+
+.place-search-symbol {
+    width: 20px;
+    height: 20px;
+    background-image: url("../../searchSymbol.png");
+    background-size: cover;
+}
+
+div {
+    display: flex;
+    width: 250px;
+}

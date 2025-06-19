@@ -1,0 +1,53 @@
+
+* {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+//border: 1px solid black;
+}
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    color: #004AA5;
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 700;
+}
+
+#edit-header-one {
+    color: white;
+    text-shadow: 0 0 10px gray;
+    font-family: "Reddit Sans", sans-serif;
+}
+
+.App-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 7px gray;
+}
+
+#chevron-left {
+    background-image: url('../../chevronLeft.png');
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+
+#nav-link-list {
+    display: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
