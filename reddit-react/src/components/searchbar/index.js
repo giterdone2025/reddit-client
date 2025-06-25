@@ -14,17 +14,16 @@ function SearchBar(props) {
     }
 
     return(
-        <div>
+        <div id="flex-the-search-input">
             <input
+                id="search-input-text-box"
                 value={searchInput.input || ''}
                 onChange={onChange}
                 type="text"
                 name="input"
                 placeholder="Search"
             />
-            <a className="place-search-symbol" onClick={search}>
-                <div className="place-search-symbol"></div>
-            </a>
+            <div id="search-button" className="place-search-symbol" onClick={search}></div>
         </div>
     );
 }
