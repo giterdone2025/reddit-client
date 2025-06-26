@@ -45,15 +45,15 @@ h1 {
 #nav-link-list {
     font-size: 15px;
     width: 200px;
-    height: 760px;
+    height: 93.5vh;
     z-index: 1;
     position: absolute;
-    top: 35px;
+    top: 4.5vh;
     transform: translateX(-160%);
     transition: transform 0.2s ease;
     -webkit-transition: transform 0.2s ease-out;
     padding-right: 30px;
-    box-shadow: 2px 0 5px lightgray;
+    box-shadow: 2px 5px 5px lightgray;
     list-style: none;
     text-align: right;
     display: flex;
@@ -61,16 +61,16 @@ h1 {
     justify-content: space-around;
 }
 
-#button-for-nav:hover > #nav-link-list {
+#div-for-nav:hover > #nav-link-list {
     transform: translateX(-60%);
 }
 
-#button-for-nav:hover > #chevron {
+#div-for-nav:hover > #chevron {
     background-image: url('../../chevronRight.png');
 }
 
 
-#button-for-nav {
+#div-for-nav {
     color: black;
     text-decoration: none;
     display: flex;
@@ -78,7 +78,7 @@ h1 {
     font-size: 19px;
 }
 
-#button-for-nav:hover {
+#div-for-nav:hover {
     cursor: pointer;
 }
 

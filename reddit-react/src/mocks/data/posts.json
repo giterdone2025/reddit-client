@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1001,
+      "type": "politics",
+      "headline": "Removal of a confederate monument",
+      "image": "../../../post-example-1.jpg"
+    },
+    {
+      "id": 1002,
+      "type": "pics",
+      "headline": "Had a great time with these folks!",
+      "image": "../../../post-example-2.jpg"
+    },
+    {
+      "id": 1003,
+      "type": "funny",
+      "headline": "An image of diabetes-fueled dinner",
+      "image": "../../../post-example-3.jpg"
+    },
+    {
+      "id": 1004,
+      "type": "politics",
+      "headline": "The Aftermath of the US strikes on Iran",
+      "image": "../../../post-example-4.jpeg"
+    },
+    {
+      "id": 1005,
+      "type": "pics",
+      "headline": "Nature's Own Ring in Gablenz, Germany",
+      "image": "../../../post-example-5.jpg"
+    },
+    {
+      "id": 1006,
+      "type": "pics",
+      "headline": "Tunnel of Love in Kleven, Ukraine",
+      "image": "../../../post-example-6.jpg"
+    }
+  ]
+}
