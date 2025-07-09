@@ -3,7 +3,7 @@
 ## The Objective
 
 Build a client app for Reddit with the knowledge of utilizing React and Redux, including writing unit tests with Jest 
-and Enzyme. The app is used for fewer and simpler tasks like viewing, searching, and commenting on posts.
+and Enzyme. The app is used for fewer and simpler tasks like searching and viewing posts from Reddit including each post's comments.
 
 ## Requirements
 
