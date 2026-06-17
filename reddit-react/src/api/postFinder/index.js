@@ -1,12 +1,16 @@
-export const getPosts = async (type = '') => {
-    const searchParams = new URLSearchParams({ type });
-    const requestUrl = `/posts?${searchParams.toString()}`;
+export const getPosts = async (subreddit) => {
+    //const searchParams = new URLSearchParams({ type, query });
+    if(!subreddit) {
+        subreddit = '';
+    }
+
+    const requestUrl = `/mocks/data/${subreddit}posts.json`;
 
     const response = await fetch(requestUrl, {
         method: 'GET'
     });
 
-    const json = await response.json();
+    const data = await response.json();
 
-    return json;
+    return data;
 };

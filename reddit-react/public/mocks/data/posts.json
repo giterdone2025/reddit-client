@@ -1,0 +1,91 @@
+{
+  "posts": [
+    {
+      "id": 1001,
+      "type": "",
+      "headline": "Removal of a confederate monument",
+      "image": "/post-example-1.jpg",
+      "numVotes": 25,
+      "comments": [
+        {
+        "profileIcon": "",
+        "userName": "",
+        "replies": ["Very historic image", "At least they have the Union statues"]
+        }
+      ],
+      "userName": "Billbuttlicker"
+    },
+    {
+      "id": 1002,
+      "type": "",
+      "headline": "Had a great time with these folks!",
+      "image": "/post-example-2.jpg",
+      "numVotes": 45,
+      "comments": [
+        {
+        "profileIcon": "",
+        "userName": "",
+        "replies": ["So much FOMO I'm feelin right now", "We should try this again some other day"]
+        },
+        {
+          "profileIcon": "",
+          "userName": "",
+          "replies": ["I love these moments"]
+        }
+      ],
+      "userName": "TheBomb"
+    },
+    {
+      "id": 1003,
+      "type": "",
+      "headline": "An image of diabetes-fueled dinner",
+      "image": "/post-example-3.jpg",
+      "numVotes": 12,
+      "comments": [{
+        "profileIcon": "",
+        "userName": "",
+        "replies": ["Disgusting", "Ugh"]
+      }],
+      "userName": "Dudewithjuice"
+    },
+    {
+      "id": 1004,
+      "type": "",
+      "headline": "The Aftermath of the US strikes on Iran",
+      "image": "/post-example-4.jpeg",
+      "numVotes": 67,
+      "comments": [{
+        "profileIcon": "",
+        "userName": "",
+        "replies": ["Crazy", "We need peace on Earth now"]
+      }],
+      "userName": "WoahHoldup"
+    },
+    {
+      "id": 1005,
+      "type": "",
+      "headline": "Nature's Own Ring in Gablenz, Germany",
+      "image": "/post-example-5.jpg",
+      "numVotes": 90,
+      "comments": [{
+        "profileIcon": "",
+        "userName": "",
+        "replies": ["Beautiful scenery", "I wanna go there"]
+      }],
+      "userName": "123Kissie"
+    },
+    {
+      "id": 1006,
+      "type": "",
+      "headline": "Tunnel of Love in Kleven, Ukraine",
+      "image": "/post-example-6.jpg",
+      "numVotes": 234,
+      "comments": [{
+        "profileIcon": "",
+        "userName": "",
+        "replies": ["Another beautiful scenery", "I also wanna go there"]
+      }],
+      "userName": "NiceElbows"
+    }
+  ]
+}

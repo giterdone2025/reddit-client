@@ -1,0 +1,102 @@
+
+
+.posts-grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    top: 80px;
+    z-index: -1;
+    gap: 30px;
+    justify-items: center;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.post-media-container {
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post-headline {
+    color: white;
+    text-align: left;
+}
+
+.flex-headline-and-expand-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 7px;
+}
+
+.expand-icon {
+    background-image: url('../../expand-content-symbol.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+}
+
+.flex-arrow-icons-and-number {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.upward-icon {
+    background-image: url('../../upward-symbol.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+.downward-icon {
+    background-image: url('../../downward-symbol.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+
+
+.amount-of-votes {
+    color: white;
+    width: 30px;
+    text-align: center;
+}
+
+.flex-username-timestamp-and-chat-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.align-and-space-user-name-and-timestamp {
+    font-size: 13px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-icon {
+    background-image: url('../../chat-symbol.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+}

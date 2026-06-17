@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1055,
+      "type": "",
+      "headline": "What is the deal with German bridges?",
+      "image": "/post-example-5.jpg",
+      "numVotes": 200,
+      "comments": [{
+        "profileIcon": "",
+        "userName": "",
+        "replies": ["I don't know", "The deal is that Germans are good at architecture"]
+      }],
+      "userName": "ReposterJohn"
+    },
+    {
+      "id": 1066,
+      "type": "",
+      "headline": "Termite Damage at the corner of my house. Ugh. Should I call exterminator?",
+      "image": "/post-example-7.jpg",
+      "numVotes": 4100100,
+      "comments": [{
+        "profileIcon": "",
+        "userName": "",
+        "replies": ["So sorry man. This sucks."]
+      }],
+      "userName": "IHateTermites"
+    }
+  ]
+}

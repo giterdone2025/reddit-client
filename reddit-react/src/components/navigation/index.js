@@ -1,10 +1,12 @@
 import React from 'react';
 import './Navigation.css';
 //import {getPosts} from '../../api/postFinder';
-import {NavLink} from "react-router-dom";
+import {NavLink, useSearchParams} from "react-router-dom";
 import SearchBar from "../searchbar";
 
 function Navigation() {
+    const [searchParams, setSearchParams] = useSearchParams();
+    const categoryName = searchParams.get('categoryName');
 /*    const [data, setData] = useState(null);
 
     useEffect(() => {
