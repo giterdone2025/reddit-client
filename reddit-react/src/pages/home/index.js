@@ -1,7 +1,9 @@
+
+
 import './HomePage.css';
 import React, {useState, useEffect, useCallback} from 'react';
 import {useDispatch} from 'react-redux';
-import {useParams} from 'react-router-dom';
+import {useParams, Link} from 'react-router-dom';
 import {getPosts} from '../../api/postFinder';
 //import { upVote, downVote } from '../../features/votes/votesSlice';
 //import { useDispatch } from 'react-redux';
@@ -84,12 +86,19 @@ const HomePage = () => {
 
     }
 
+    // Builds the link target for a post's detail/comments page.
+    // Keeps the current subreddit in the URL if we're inside one,
+    // so PostDetail knows which mock JSON file to re-fetch from.
+    function getPostDetailPath(postId) {
+        return subreddit ? `/${subreddit}/post/${postId}` : `/post/${postId}`;
+    }
+
     return (
         <>
             {data.length ? (
                 <div className="posts-grid-layout">
                     {data.map((post) => (
-                        <div>
+                        <div key={post.id}>
                             <div className="post-media-container" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5)), url(${post.image})`}}>
                                 <div className="flex-headline-and-expand-icon">
                                     <p className="post-headline">{post.headline.length > 46 ? `${post.headline.substring(0, 43)}...` : post.headline}</p>
@@ -111,7 +120,9 @@ const HomePage = () => {
                                     <p>{post.userName}</p>
                                     <p>Feb. 24th, 2025</p>
                                 </div>
-                                <div className="chat-icon"></div>
+                                <Link to={getPostDetailPath(post.id)} aria-label={`View comments for ${post.headline}`}>
+                                    <div className="chat-icon"></div>
+                                </Link>
                             </div>
                         </div>
                     ))}

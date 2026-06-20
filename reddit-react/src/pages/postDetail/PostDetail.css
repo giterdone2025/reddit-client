@@ -1,0 +1,201 @@
+.post-detail-status {
+    text-align: center;
+    margin-top: 120px;
+    font-family: "Barlow", sans-serif;
+}
+
+.post-detail-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.back-to-home-link {
+    color: #004AA5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-to-home-link:hover {
+    text-decoration: underline 3px #A55B00;
+}
+
+.post-detail-layout {
+    position: relative;
+    top: 80px;
+    width: 700px;
+    max-width: 92vw;
+    margin: 0 auto 60px;
+}
+
+/* ── Media post (box with vote controls overlaid, like HomePage cards) ── */
+.post-detail-media {
+    height: 360px;
+    width: 100%;
+}
+
+.post-detail-media .post-headline {
+    font-size: 22px;
+    margin: 10px;
+}
+
+/* ── Text-only post (no image/video attachment) ──
+   Caption renders as larger plain text instead of inside a media box,
+   per design: "if no media attachment, just a simple line of text but bigger" */
+.post-detail-text-only {
+    background-color: white;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 6px;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.post-headline-large {
+    color: #1a1a1a;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.text-only-votes {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 10px;
+    margin: 0 !important;
+}
+
+/* Dark variants of the vote arrows so they're visible on a white background
+   instead of the white-on-photo versions used elsewhere */
+.upward-icon-dark,
+.downward-icon-dark {
+    filter: invert(1);
+}
+
+.amount-of-votes-dark {
+    color: #1a1a1a;
+    width: auto;
+    min-width: 30px;
+}
+
+/* ── Author / timestamp row, consistent with HomePage card ── */
+.post-detail-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #444;
+    margin: 10px 4px 0;
+}
+
+/* ── Comments header — the "H2 Header" in the wireframe ── */
+.comments-header {
+    font-family: "Reddit Sans", sans-serif;
+    color: #004AA5;
+    margin: 24px 4px 12px;
+}
+
+/* ── Comments box ── */
+.comments-box {
+    background-color: white;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 6px;
+    padding: 8px 0;
+}
+
+.no-comments-message {
+    text-align: center;
+    color: #888;
+    padding: 20px;
+}
+
+/* Each comment: profile circle on the left, username+text+date stacked
+   to the right — placement modeled after YouTube/Facebook/LinkedIn
+   comment rows per design spec */
+.comment-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 18px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.comment-row:last-child {
+    border-bottom: none;
+}
+
+.comment-profile-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgb(210, 210, 210);
+}
+
+.comment-body-column {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Username sits small, above the comment text — not inline with it */
+.comment-username {
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    margin: 0 0 4px;
+}
+
+.comment-text-and-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.comment-text {
+    font-size: 15px;
+    color: #1a1a1a;
+    margin: 0;
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+.comment-date {
+    font-size: 11px;
+    color: #999;
+    white-space: nowrap;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+/* ───────────────────────── Mobile ───────────────────────── */
+@media (max-width: 600px) {
+    .post-detail-layout {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 12px;
+        top: 70px;
+    }
+
+    .post-detail-media {
+        height: 240px;
+    }
+
+    .post-headline-large {
+        font-size: 22px;
+    }
+
+    .comment-text-and-date {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+    }
+
+    .comment-date {
+        font-size: 10px;
+    }
+}
